@@ -2,6 +2,11 @@
 
 This repository contains analysis code and reproducible workflows for the MSICKB manuscript.
 
+## Download
+- **Database snapshot (v1.0.0)**: https://github.com/ExplorerZhyuxin/MSICKB/releases/tag/v1.0.0
+- **Latest releases**: https://github.com/ExplorerZhyuxin/MSICKB/releases
+- **MSICKB website**: <YOUR_WEBSITE_URL>
+
 ## Contents
 - `scripts/`: analysis scripts used to generate network statistics, hub analyses, sensitivity analyses, and TCGA/cBioPortal validation.
 - `results/figures/`: generated figures used in the manuscript and supplement.

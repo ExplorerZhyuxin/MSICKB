@@ -1,6 +1,6 @@
-# MSICKB analysis
+# MSICKB
 
-This repository contains analysis scripts and data files associated with the MSICKB study.
+This repository provides analysis scripts and processed data files associated with the MSICKB study.
 
 ## Resources
 
@@ -11,18 +11,18 @@ This repository contains analysis scripts and data files associated with the MSI
 ## Repository structure
 
 - `Code/`: analysis scripts used in this study
-- `Data/`: processed data tables and database-related files used for analysis
+- `Data/`: processed tables and database-related files
 
 ## Requirements
 
-The analysis scripts were developed in **Python**.  
-Please install the required Python packages according to your local environment before running the scripts.
+The analysis scripts were developed in Python.  
+Users may need to install the required Python packages according to their local environment.
 
 ## Citation
 
 If you use MSICKB or materials from this repository, please cite the associated manuscript:
 
-**MSICKB: A Curated Knowledgebase for Exploring Molecular Heterogeneity and Biomarker Prioritization in Microsatellite Instability Cancers**
+*MSICKB: A Curated Knowledgebase for Exploring Molecular Heterogeneity and Biomarker Prioritization in Microsatellite Instability Cancers*
 
 ## License
 

@@ -4,7 +4,7 @@ This repository contains analysis scripts and data files associated with the MSI
 
 ## Resources
 
-- **MSICKB website**: <YOUR_WEBSITE_URL>
+- **MSICKB website**: http://www.sysbio.org.cn/MSICKB/
 - **Database snapshot (v1.0.0)**: https://github.com/ExplorerZhyuxin/MSICKB/releases/tag/v1.0.0
 - **All releases**: https://github.com/ExplorerZhyuxin/MSICKB/releases
 

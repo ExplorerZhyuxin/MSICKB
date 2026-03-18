@@ -1,34 +1,29 @@
 # MSICKB analysis
 
-This repository contains analysis code and reproducible workflows for the MSICKB manuscript.
+This repository contains analysis scripts and data files associated with the MSICKB study.
 
-## Download
-- **Database snapshot (v1.0.0)**: https://github.com/ExplorerZhyuxin/MSICKB/releases/tag/v1.0.0
-- **Latest releases**: https://github.com/ExplorerZhyuxin/MSICKB/releases
+## Resources
+
 - **MSICKB website**: <YOUR_WEBSITE_URL>
+- **Database snapshot (v1.0.0)**: https://github.com/ExplorerZhyuxin/MSICKB/releases/tag/v1.0.0
+- **All releases**: https://github.com/ExplorerZhyuxin/MSICKB/releases
 
-## Contents
-- `scripts/`: analysis scripts used to generate network statistics, hub analyses, sensitivity analyses, and TCGA/cBioPortal validation.
-- `results/figures/`: generated figures used in the manuscript and supplement.
-- `results/tables/`: generated tables used in the manuscript and supplement.
+## Repository structure
+
+- `Code/`: analysis scripts used in this study
+- `Data/`: processed data tables and database-related files used for analysis
 
 ## Requirements
-- R (>=4.3) and/or Python (>=3.10)
-- See `environment.yml` (or `requirements.txt` / `renv.lock`) for dependencies.
 
-## Reproducibility
-1. Clone this repository
-2. Install dependencies
-3. Run scripts in order:
-   - `scripts/01_build_network.*`
-   - `scripts/02_hub_analysis.*`
-   - `scripts/03_assay_sensitivity.*`
-   - `scripts/05_tcga_cbioportal_validation.*`
+The analysis scripts were developed in **Python**.  
+Please install the required Python packages according to your local environment before running the scripts.
 
-## Data availability
-Due to licensing and size constraints, raw literature-curated data are not fully redistributed in this repository.
-A curated snapshot (tables used in the manuscript) is available at: [LINK_TO_DOWNLOAD_PAGE_OR_RELEASE]
-All analyses are scripted to run from the provided processed tables.
+## Citation
+
+If you use MSICKB or materials from this repository, please cite the associated manuscript:
+
+**MSICKB: A Curated Knowledgebase for Exploring Molecular Heterogeneity and Biomarker Prioritization in Microsatellite Instability Cancers**
 
 ## License
+
 MIT License.
